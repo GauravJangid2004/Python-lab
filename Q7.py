@@ -1,6 +1,6 @@
-# From the formula to convert Celsius to Fahrenhiet 
-#      F = (C*9/5) + 32
-#      F=C
-C = (32*5)/(5-9)
-
-print("The value of Celsius and Fahrenheit is same at", C)
+n1 = complex(int(input("Enter the first number:")))
+n2 = complex(int(input("Enter the second number:")))
+Sum = n1 + n2
+Multiply = n1 * n2
+print("The sum is:",Sum)
+print("The multiplication is:",Multiply)

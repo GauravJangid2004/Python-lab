@@ -1,5 +1,17 @@
-l = float(input("Enter the length (in feets):"))
-w = float(input("Enter the width(in feets):"))
-#   Find the area along with converting feets into meters.
-area = (0.3048*l)*(0.3048*w)       
-print("The area is(in square meters):", area)
+# Que. first
+w = float(input("Enter the weight(in KG):"))
+h = float(input("Enter the height(in Meters):"))
+if w<=0 or h<=0:
+    print("Invalid input")
+else:
+    print("The BMI is:", w/(h**2))
+
+# Que. second
+W = float(input("Enter the weight(in pounds):"))
+H = float(input("Enter the height(in inches):"))
+bmi = (W/2.205)/((H/39.37)**2)
+if W<=0 or H<=0:
+    print("Invalid input")
+else:
+    print("The BMI is :",bmi)
+    

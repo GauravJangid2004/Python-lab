@@ -1,9 +1,9 @@
-x = float(input("Enter the first positive number:"))
-y = float(input("Enter the second positive number:"))
-if y<=0 or x<0:
-    print("Invalid Input. Value is negative")
-elif y/x == int:
-    print("Y is divisible by X")
+a = float(input("Enter the first side:"))
+b = float(input("Enter the second side:"))
+c = float(input("Enter the third side:"))
+if a<=0 or b<=0 or c<=0:
+    print("Invalid input")
+elif a+b>c and b+c>a and a+c>b:
+    print("These sides form a triangle")
 else:
-    print("Y is not divisible by X")
-    
+    print("These sides does not form triangle")
