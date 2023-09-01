@@ -1,17 +1,9 @@
-# Que. first
-w = float(input("Enter the weight(in KG):"))
-h = float(input("Enter the height(in Meters):"))
-if w<=0 or h<=0:
-    print("Invalid input")
-else:
-    print("The BMI is:", w/(h**2))
-
-# Que. second
-W = float(input("Enter the weight(in pounds):"))
-H = float(input("Enter the height(in inches):"))
-bmi = (W/2.205)/((H/39.37)**2)
-if W<=0 or H<=0:
-    print("Invalid input")
-else:
-    print("The BMI is :",bmi)
+x=int(input("enter the first number:"))
+y=int(input("enter the second number:"))
+n=int(input("enter the divisibility number:")) 
+i=x+1
+while (i>x and i<=y):
+    if i%n==0:
+        print(i)
+    i=i+1
     

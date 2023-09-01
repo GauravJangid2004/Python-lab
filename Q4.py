@@ -1,17 +1,15 @@
-x = int(input("Enter three digit number:"))
-
-n1 = x % 10
-a1 = x//10
-
-n2 = a1 % 10
-a2 = a1//10
-
-n3 = a2 % 10 
-
-s = n1 + n2 + n3
-print("The sum of three digit is:",s)
-
-if s%3==0:
-    print("Their sum is also divisible by 3")
-else:
-    print("Their sum is not divisible by 3")
+n=int(input("enter the number N :"))
+s=0
+c=0
+v=0
+t=0
+while t!=-999:
+    t=int(input())
+    if t%n==0:
+        c=c+1
+    else:
+        v=v+1
+    s=c+v
+print("sum of all no. till now:",s+999)
+print("number divisible by n:",c)
+print("number not divisible by n:",v)
